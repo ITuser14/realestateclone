@@ -1,0 +1,447 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-nav .nav-item{
+    color: #ffffff;
+    font: 14px montserrat, helvetica, arial, sans-serif;
+    /* padding-top: 1px; */
+}
+.navbar-brand{
+    color: #ffffff;
+    font: 14px montserrat, helvetica, arial, sans-serif;
+    padding: 0px 32px 0px 16px;
+}
+.btn .btn-light{
+    width: 175px;
+    height: 32px;
+    background-color: #ffffff;
+    color: #303030;
+    font: 14px montserrat, helvetica, arial, sans-serif;
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+.nav-item span{
+    margin-left: 5px;
+    background-color: #ffc72c;
+    font: 10px montserrat, helvetica, arial, sans-serif;
+}
+/* Second Nav */
+.nav-link{
+    color: #000000;
+    font: 16px montserrat, helvetica, arial, sans-serif;
+    font-weight: light;
+}
+.nav .nav-link  i{
+    color: #d8232a;
+    width: 5px;
+    height: 5px;
+}
+.nav{
+    margin-top: 8px;
+    display: flex;
+    padding-left: 120px;
+    align-items: center;
+    gap: 20px;
+}
+/* third-section */
+
+.container-fluid{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+}
+.container-fluid p{
+    font: 28px montserrat, helvetica, arial, sans-serif;
+    font-weight: 100;
+    color: #303030;
+    margin-right: 300px;
+}
+
+.container-fluid .nav{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-right: 430px;
+}
+.container-fluid .row{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.container-fluid .col-9{
+    width: 900px;
+    height: 62px;
+    margin-right: 280px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ffffff;
+    border: 2px solid gainsboro;
+    
+}
+.container-fluid .col-3{
+    width: 275px;
+    height: 168px;
+    position: absolute;
+    bottom: 340px;
+    right: 150px;
+
+}
+.col-9 img{
+    width: 100%;
+    height: 100%;
+}
+.col-9 .fa-location-dot{
+    color: #d8232a;
+}
+.col-9 .fa-house{
+    color: #d8232a;
+}
+.col-9 .fa-indian-rupee-sign{
+    color: #d8232a;
+}
+/* fourth section */
+.container-xl  p{
+   color: #303030;
+   font: 24px montserrat,helvetica, arial,sans-serif;
+   font-weight: 400;
+   line-height: 32px;
+}
+.container-xl .row  .col-xl-3{
+    width: 296px;
+    height: 184px;
+    background-image: url(images/owner-property.webp);
+    background-size: cover;
+    transition: var(--tranisition);
+}
+.col-xl-3:hover{
+    transform: scale(1.1);
+}
+.container-xl .row  .col-lg-3{
+    width: 296px;
+    height: 184px;
+    background-image: url(images/new-projects.webp);
+    background-size: 100% 100%;
+    transition: var(--tranisition);
+}
+.col-lg-3:hover{
+    transform: scale(1.1);
+}
+.container-xl .row  .col-md-3{
+    width: 296px;
+    height: 184px;
+    background-image: url(images/ready-to-move-in.webp);
+    background-size: 100% 100%;
+    transition: var(--tranisition);
+}
+.col-md-3:hover{
+    transform: scale(1.1);
+}
+.container-xl .row  .col-xxl-3{
+    width: 296px;
+    height: 184px;
+    background-image: url(images/budget-homes.webp);
+    background-size: 100% 100%;
+    transition: var(--tranisition);
+}
+.col-xxl-3:hover{
+    transform: scale(1.1);
+}
+.container-xl .col-3 span{
+    padding-left: 9px;
+}
+/* fifth(5th) section */
+.container-lg{
+    margin-top: 60px;
+}
+.container-lg h3{
+    padding-left: 30px;
+    color: #303030;
+    font: 24px montserrat,helvetica,arial,sans-serif;
+}
+.container-lg .card-img{
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.container-lg .card{
+    border: 2px solid whitesmoke;
+}
+.container-lg .card img{
+    width: 290px;
+    height: 156px;
+    object-fit: cover;
+}
+.card-img .card .card-body h4{
+    color: #303030;
+   font: 14px montserrat ,helvetica, arial ,sans-serif;
+}
+
+.card-img .card .card-body span{
+   color: #303030;
+   font: 18px montserrat ,helvetica, arial ,sans-serif;
+   font-weight: 600;
+}
+/* 6th section */
+.section-six{
+    margin-top: 65px;
+    margin-left: 140px;
+}
+.section-six .cdbx{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin-right: 130px;
+    gap: 20px;
+    
+}
+.section-six h5{
+    color: #303030;
+    font: 24px 'montserrat',arial,sans-serif;
+}
+
+.section-six .card{
+    margin-top: 30px;
+    width: 294px;
+    height: 214px;
+    display: flex;
+}
+.card .card-top{
+    width: 289px;
+    height: 60px;
+    background-color: #dff6f9;
+    display: flex;
+    gap: 0px;
+}
+.card-top .text{
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.card-top p{
+    font: 14px 'monteserrat',arial,sans-serif;
+    color: #303030;
+    line-height: 0%;
+    margin-top: 10px;
+}
+
+.mid{
+    width: 294px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.mid p{
+    color: #303030;
+}
+.last{
+    margin-top: 0%;
+    width: 100%;
+    height: 100%;
+    /* background-color: #d8232a; */
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    gap: 40px;
+    padding-left: 15px;
+    padding-top: 9px;
+    border-top: 1px solid lightslategray;
+}
+/* section seven */
+.section-seven{
+  margin-top: 65px;  
+}
+.section-seven .container-md{
+    background: linear-gradient(to bottom, #f2fbfc 1%, rgba(242, 251, 252, 0));
+    width: 1225px;
+    height: 316px;
+    border: 1px solid #007bff3b;
+    /* background-color: #d8232a; */
+    border-radius: 20px;
+}
+
+.f1{
+    width: 340px;
+    height: 100px;
+    background-color: #dff6f9;
+    border-radius: 20px;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.b1 img{
+    /* background-color: #fff; */
+    border-radius: 20px;
+}
+
+.b1 p{
+    font: 16px 'monteserrat' arial sans-serif;
+    color: #000000;
+}
+
+.f2{
+    width: 340px;
+    height: 100px;
+    background: linear-gradient(to bottom, #ffe6e8, #ffccd1);
+    /* background-color: #dff6f9; */
+    border-radius: 20px;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.f3{
+    width: 340px;
+    height: 100px;
+    background: linear-gradient(to bottom, #fff8e6, #fff1c7);
+    /* background-color: #dff6f9; */
+    border-radius: 20px;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.three-boxes{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#nlid{
+    margin-top: 15px;
+    width: 262px;
+    height: 40px;
+    background-color: #d8232a;
+    color: #ffffff;
+    font: 14px;
+    border: 0px;
+    border-radius: 20px;
+    position: absolute;
+    right: 635px;
+
+}
+
+/* scetion eight */
+.section-egt{
+margin-top: 80px;
+}
+.section-egt .pj-mnu{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.section-egt p i .fa-solid{
+    font: 12px 'montserrat' arial sans-serif;
+    color: #303030;
+}
+
+/* scetion-nine */
+
+.section-nine{
+    margin-top: 90px;
+    margin-left: 0px;
+}
+
+.section-nine .container{
+    width: 1232px;
+    height: 112px;
+    background-color: #FFF8E2;
+    padding-top: 30px;
+    padding-left: 40px;
+    border-radius: 15px;
+}
+ #n1{
+    font: 24px 'montserrat' arial sans-serif;
+    color: #303030;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    
+}
+ #n2{
+    font: 10px 'montserrat' arial sans-serif;
+    font-size: 16px;
+    color: #303030;
+    /* font-weight: 400; */
+    /* line-height: 34px; */
+    /* letter-spacing: 1px; */
+}
+.container #btnnine{
+    width: 192px;
+    height: 48px;
+    background-color: #ffc72c;
+}
+
+/* footer  */
+.footer{
+ margin-top: 30px;
+}
+
+.footer{
+    height: 300px;
+    background-color: #f5f5f5;
+}
+
+.sub-footer{
+    margin-top: 40px;
+    /* padding-top: 20px; */
+    width: 100%;
+    height: 50px;
+    background-color: #6060602d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sub-footer a{
+    text-decoration: none;
+    color: #303030;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
